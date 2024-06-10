@@ -38,4 +38,4 @@ Make sure you have the following installed on your machine:
    ```npm install```
 
 3. Running the Application: 
-4. ```npm start```
+    ```npm start```
