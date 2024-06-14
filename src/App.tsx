@@ -3,6 +3,9 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Records from "./feature/records/Records";
 import RecordDeatils from "./components/RecordDeatils";
+import DayOfWeek from "./components/DayOfWeek";
+
+// year month day;
 
 function App() {
   return (
@@ -16,6 +19,7 @@ function App() {
           </Routes>
         </div>
       </Router>
+      {/* <DayOfWeek year={2022} month={12} day={1}/> */}
     </div>
   );
 }
